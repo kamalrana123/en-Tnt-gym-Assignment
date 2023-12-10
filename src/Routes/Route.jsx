@@ -6,10 +6,10 @@ import Appoinments from "../components/Appoinments/Appoinments"
 import GymCalendar from "../components/GymCalendar/GymCalendar"
 const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='en-Tnt-gym-Assignment/' element={<Layout/>}>
-        <Route path='en-Tnt-gym-Assignment/' element={<Home/>}></Route>
-        <Route path='/Appointment' element={<Appoinments/>}></Route>
-        <Route path='/Calendar' element={<GymCalendar/>}></Route>
+      <Route path='/en-Tnt-gym-Assignment/' element={<Layout/>}>
+        <Route path='/en-Tnt-gym-Assignment/' element={<Home/>}></Route>
+        <Route path='/en-Tnt-gym-Assignment/Appointment' element={<Appoinments/>}></Route>
+        <Route path='/en-Tnt-gym-Assignment/Calendar' element={<GymCalendar/>}></Route>
       </Route>
     )
 )
