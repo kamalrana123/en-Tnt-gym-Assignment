@@ -23,7 +23,7 @@ function GymCalendar() {
       <div className=''>
         <Calendar onChange={setDate} value={date}/>
       </div>
-      <div className='grid grid-flow-row grid-cols-3 gap-4 py-2 px-2 ' >
+      <div className='grid grid-flow-row grid-cols-3 gap-4  px-9 ' >
         {userData.map((item)=>{
           item.appoinments.map((appo)=>{console.log(appo.date)})
           const obj = item.appoinments.find((appo)=>((`${year}-${month}-${day}`)==appo.date))
