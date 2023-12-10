@@ -37,7 +37,7 @@ En-tnt gym is a basic webApplication to enable gym trainer to easily manage thei
      - to add new appointment the client just click on add appointment and add time and date of the appointment
   
 
-- The second page of the application is appoinment page where we can add new client
+- The second page of the application is appointment page where we can add new client
     
 <img src="https://drive.google.com/uc?id=1W-210mRA0IaQm_W1Hs8XaPlhZR_xI61z"
      alt="sample image"
@@ -49,7 +49,7 @@ En-tnt gym is a basic webApplication to enable gym trainer to easily manage thei
      - once you submit the form you will able to see the added client on the page
   
 - The last page of this app is Calendar page 
-- In calendar page you can click on dates and the all the appoinment will appear on the page on that given date
+- In calendar page you can click on dates and the all the appointment will appear on the page on that given date
 
 <img src="https://drive.google.com/uc?id=1flbprcZKpjzw14kxaHfkHu_tLFY726Ot"
      alt="sample image"
@@ -57,8 +57,8 @@ En-tnt gym is a basic webApplication to enable gym trainer to easily manage thei
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" />  
 
 
-     - You can view the appoinments by clicking on the dates 
-     - you can mark the completed appoinments
+     - You can view the appointments by clicking on the dates 
+     - you can mark the completed appointments
   
 
 
