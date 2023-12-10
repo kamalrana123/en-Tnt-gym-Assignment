@@ -8,7 +8,7 @@ const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='en-Tnt-gym-Assignment/' element={<Layout/>}>
         <Route path='en-Tnt-gym-Assignment/' element={<Home/>}></Route>
-        <Route path='/Home' element={<Home/>}></Route>
+        //<Route path='/Home' element={<Home/>}></Route>
         <Route path='/Appointment' element={<Appoinments/>}></Route>
         <Route path='/Calendar' element={<GymCalendar/>}></Route>
       </Route>
