@@ -85,7 +85,7 @@ function Card({
         {(!isCalendar)?(<>
       <button hidden={addNewAppoinment} onClick={()=>setNewAppoinment(!addNewAppoinment)} className={`${addNewAppoinment?"bg-green-500 hover:bg-green-700":"bg-blue-500 hover:bg-blue-700"} text-white font-semibold py-2 rounded px-4 mr-2`}>add new appoinments</button> 
       <button hidden={!addNewAppoinment} onClick={()=>{dispatch(
-        updateGymAppoinments({...userInfo,appoinments:[...userInfo.appoinments,{date:`${day}-${month}-${year}`,time:time}]}))
+        updateGymAppoinments({...userInfo,appoinments:[...userInfo.appoinments,{date:`${year}-${month}-${day}`,time:time}]}))
         setNewAppoinment(!addNewAppoinment)
         }} className={`${addNewAppoinment?"bg-green-500 hover:bg-green-700":"bg-blue-500 hover:bg-blue-700"} text-white font-semibold py-2 rounded px-4 mr-2`}>save </button> 
       
